@@ -20,41 +20,17 @@ jQuery(document).ready(function( $ ) {
 
   // JavaScript Chart
   var doughnutData = [{
-      value: 70,
+      value: 90,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 10,
       color: "#ecf0f1"
     }
   ];
   var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
 
-  // Bootstrap Chart
-  var doughnutData = [{
-    value: 90,
-    color: "#1abc9c"
-  },
-  {
-    value: 10,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-
-  // WordPress Chart
-  var doughnutData = [{
-    value: 65,
-    color: "#1abc9c"
-  },
-  {
-    value: 35,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-
-  // HTML Chart
+  // Java Chart
   var doughnutData = [{
     value: 80,
     color: "#1abc9c"
@@ -64,29 +40,53 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
+  var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData);
+
+  // WordPress Chart
+  var doughnutData = [{
+    value: 99,
+    color: "#1abc9c"
+  },
+  {
+    value: 1,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+
+  // HTML Chart
+  var doughnutData = [{
+    value: 99,
+    color: "#1abc9c"
+  },
+  {
+    value: 1,
+    color: "#ecf0f1"
+  }
+  ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
+  // ReactJS Chart
   var doughnutData = [{
-    value: 70,
+    value: 85,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 15,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("ReactJS").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Python Chart
   var doughnutData = [{
-    value: 50,
+    value: 99,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 1,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
 });
